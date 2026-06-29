@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sidebar</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Sarabun",sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    padding:40px;
+}
+
+.sidebar{
+    width:320px;
+    background:#FFF9F5;
+    border-radius:18px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    padding:25px;
+}
+
+.sidebar h2{
+    text-align:center;
+    color:#5B5B5B;
+    margin-bottom:25px;
+    border-bottom:2px solid #E7D7D7;
+    padding-bottom:12px;
+    font-size:24px;
+}
+
+.section{
+    margin-bottom:22px;
+    background:#FFFFFF;
+    border-radius:12px;
+    padding:15px;
+    border-left:6px solid #B8D8D8;
+}
+
+.section h3{
+    color:#5C5C5C;
+    margin-bottom:12px;
+    font-size:18px;
+}
+
+.section ul{
+    list-style:none;
+}
+
+.section ul li{
+    padding:8px 0;
+    color:#666;
+    border-bottom:1px dashed #E6E6E6;
+    transition:.3s;
+}
+
+.section ul li:last-child{
+    border-bottom:none;
+}
+
+.section ul li:hover{
+    color:#4A90A4;
+    padding-left:8px;
+}
+
+.calendar{
+    text-align:center;
+    background:#EAF4F4;
+    padding:15px;
+    border-radius:10px;
+    color:#4D6A6D;
+    font-weight:bold;
+}
+
+.notice{
+    background:#FFF4D6;
+    color:#8A6D3B;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    font-weight:600;
+}
+</style>
+
+</head>
+<body>
+
+<div class="sidebar">
+
+    <h2>📌 Sidebar</h2>
+
+    <div class="section">
+        <h3>📰 ข่าวล่าสุด</h3>
+        <ul>
+            <li>เปิดตัวเว็บไซต์เวอร์ชันใหม่</li>
+            <li>อัปเดตระบบสมาชิก</li>
+            <li>ประกาศวันหยุดประจำปี</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>📂 หมวดหมู่</h3>
+        <ul>
+            <li>ข่าวสาร</li>
+            <li>บทความ</li>
+            <li>กิจกรรม</li>
+            <li>บริการ</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>🏷️ ป้ายกำกับ (Tags)</h3>
+        <ul>
+            <li>#เว็บไซต์</li>
+            <li>#เทคโนโลยี</li>
+            <li>#การศึกษา</li>
+            <li>#ประชาสัมพันธ์</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>⭐ สินค้ายอดนิยม</h3>
+        <ul>
+            <li>Notebook</li>
+            <li>Printer</li>
+            <li>Keyboard</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>🔗 เมนูลัด</h3>
+        <ul>
+            <li>หน้าแรก</li>
+            <li>เกี่ยวกับเรา</li>
+            <li>ติดต่อ</li>
+            <li>สมัครสมาชิก</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>📅 ปฏิทิน</h3>
+        <div class="calendar">
+            มิถุนายน 2569
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>📢 ป้ายประชาสัมพันธ์</h3>
+        <div class="notice">
+            ยินดีต้อนรับสู่เว็บไซต์<br>
+            ติดตามข่าวสารและกิจกรรมใหม่ ๆ ได้ที่นี่
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
